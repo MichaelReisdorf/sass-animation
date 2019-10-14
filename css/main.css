@@ -1,0 +1,141 @@
+.ball1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball5 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: violet;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball6 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+.ball7 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: move;
+          animation-name: move;
+}
+
+@-webkit-keyframes move {
+  0%, 100% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+  50% {
+    -webkit-transform: translateX(90vw);
+            transform: translateX(90vw);
+  }
+}
+
+@keyframes move {
+  0%, 100% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+  50% {
+    -webkit-transform: translateX(90vw);
+            transform: translateX(90vw);
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+@mixin ball($bg-color) {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $bg-color;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+@mixin animation($duration, $delay) {
+    animation-duration: $duration;
+    animation-delay: $delay;
+    animation-iteration-count: infinite;
+    animation-name: move;
+}
+.ball1{
+  @include ball(red);
+  @include animation(1s,1s);
+}
+.ball2{
+    @include ball(blue);
+    @include animation(2s,2s);
+}
+.ball3{
+    @include ball(yellow);
+    @include animation(4s,0s);
+}
+.ball4{
+    @include ball(green);
+    @include animation(5s,2s);
+}
+.ball5{
+    @include ball(violet);
+    @include animation(3s,1s);
+}
+.ball6{
+    @include ball(orange);
+    @include animation(4s,3s);
+}
+.ball7{
+    @include ball(aqua);
+    @include animation(7s,0s);
+}
+@keyframes move{
+    0%, 100%{
+        transform: translateX(0vw)
+    }
+    50%{
+        transform: translateX(90vw);
+    }
+}
